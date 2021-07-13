@@ -1,0 +1,42 @@
+header{
+    background-image: url('../img/hojas\ verdes.jpg');
+    background-size: cover;
+
+    }
+
+h2{
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+letter-spacing: 10px;
+padding: 10px;
+color: rgb(5, 54, 46);
+font-weight: bolder;
+font-size:xx-large;
+font-family: 'Zen Loop';
+}
+
+main{
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: left;
+letter-spacing: 10px;
+padding: 10px;
+color: rgb(5, 54, 46);
+font-weight: bolder;
+font-size: larger;
+font-family: 'Zen Loop';
+}
+
+footer{
+    background-color:rgb(44, 131, 134);
+    padding: 10px;
+text-align: center;
+color: whitesmoke;
+}
+
+footer img{
+    margin-right: 20px;
+}
