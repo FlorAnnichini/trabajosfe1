@@ -3,18 +3,17 @@ header{
     background-color:#E5E5E5;
 }
 
-h1{
+#encabezado{
     color:#005677;
     font-size: 35px;
     background-color:#C4C4C4;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 29.64px;
-    background-size: width: 1440px; height: 60px;
-    position: absolut;
-    text-align: top: 203px; left: 213px; height: 30px; width: 1013px;
-
+    letter-spacing: 10px;
+}
+#encabezado h1{
+    padding: 8px;
 }
 
 h2{
@@ -24,21 +23,37 @@ font-family: 'Times New Roman', Times, serif;
 font-size: 20px;
 line-height: 16.94px; 
 color:#005677;
-text-align: top: 365px; left: 222px; height: 17px; width: 286px;
 background-color:#C4C4C4;
-background-size: width: 1041px; height: 30px; left: 213px; top: 359px;
-
-
+letter-spacing: 10px;
+padding: 10px;
 
 }
 
+.listaSinPunto{
+    list-style: none;
+}
+
+.conItalica{
+    font-style: italic;
+}
+
+
+.sinNegrita{
+    font-weight: normal;
+    display: inline;
+    font-style: normal;
+}
+
+
 li{
-    font-style: italic; 
+    font-style: normal; 
 font-weight: 700;
 font-family: 'Times New Roman', Times, serif;
 font-size: 15px;
 line-height: normal; 
-color:#000000 ;
+color:#000000;
+padding-left: 30px;
+margin-bottom: 8px;
 }
 
 p{
@@ -48,17 +63,26 @@ p{
     font-size: 15px;
     line-height: normal; 
     color:#000000 ; 
+    
 }
 
 h3{
     color:#FFFFFF;
     font-size: 20px;
-    background-color:#005677;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 16.64px;
-    background-size: width: 1440px; height: 60px;
-    position: absolut;
-    text-align: top: 203px; left: 213px; height: 30px; width: 1013px;
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+footer{
+    background-color:#005677;
+    padding: 10px;
+text-align: center;
+}
+
+footer img{
+    margin-right: 20px;
 }
