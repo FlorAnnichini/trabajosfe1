@@ -77,6 +77,11 @@ h3{
     
 }
 
+main{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 footer{
     background-color:#005677;
     padding: 10px;
