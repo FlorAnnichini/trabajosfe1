@@ -1,13 +1,12 @@
 
-body{
-    font-family: 'Zen Loop';
-}
-
 
 header{
 background-image: url('../img/hojas\ verdes.jpg');
 background-size: cover;
+}
 
+body{
+    font-family: 'Zen Loop';
 }
 
 section.img{
@@ -22,6 +21,7 @@ font-weight: bolder;
 font-size:xx-large;
 }
 
+
 section{
     margin-right: 200px;
     margin-left: 100px;
@@ -31,12 +31,14 @@ padding: 10px;
 color: rgb(5, 54, 46);
 font-weight: bolder;
 font-size: larger;
-line-height: large; 
+line-height: large;
+
 }
 
 .listaSinPunto{
     list-style: none;
 }
+
 
 footer{
     background-color:rgb(44, 131, 134);
