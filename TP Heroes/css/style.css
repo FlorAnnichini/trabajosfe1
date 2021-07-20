@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:#000000;
+    font-family: 'Roboto';
+    Width: 1024px;
+}
+
+main{
+    margin: 150px 32px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+
+h3{
+font-size: 15px;
+font-style: normal;
+background-color: #1CD1B0;
+height: 38px;
+padding: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-style: normal;
+    background-color: #00669F;
+    height: 101px;
+    padding: 30px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+article{
+    Width: 300px;
+    Height: 336px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    background-color: #F3F3F3;
+padding: 17px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+article.batman{
+    position: absolute;
+    line-height: 35px;
+    
+}
+
+article.harleyquinn{
+    position: absolute;
+    left: 33%;
+    line-height: 35px;
+}
+
+article.tercerbatman{
+    position: absolute;
+    left: 67%;
+    line-height: 35px;
+}
+
+div.textoHeroes{
+    font-size: 16px; 
+    line-height: 18.75px;
+    text-align: left;
+    padding: 20px;
+    Width: 267px;
+    Height: 113px;
+
+}
+
+div.verMas{
+    font-size: 15px;
+    background-color: #00669F;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 269px;
+padding: 10px;
+color: #F3F3F3;
+
+}
+
+footer{
+text-align: left;
+align-items: flex-end;
+Width: 1024px;
+Height: 51px;
+background-color: #00669F;
+color: #FFF9F9;
+position: absolute;
+padding: 15px;
+justify-content: center;
+align-content:flex-end;
+}
