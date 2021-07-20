@@ -3,6 +3,14 @@
     src: url(../font/Roboto-Regular.ttf);
 }
 
+main{
+    font-family: 'Roboto';
+}
+
+.listaSinPunto{
+    list-style: none;
+}
+
 nav.fondoNegro{
     background-color: #222222;
     color: #F3F3F3;
@@ -16,9 +24,74 @@ nav.fondoNaranja{
     color: #FFFFFF;
 }
 
+p.esUnPlacer{
+    text-align: center;
+    font-family: 'Roboto';
+    margin-right: 80px;
+    margin-left: 850px;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+p.comederos1{
+    text-align: center;
+    font-family: 'Roboto';
+    margin-right: 80px;
+    margin-left: 850px;
+    color: ##3C2313;
+    font-size: 16px;
+    padding: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p.comederos2{
+text-align: center;
+font-family: 'Roboto';
+margin-right: 140px;
+margin-left: 900px;
+color: #FFFFFF;
+background-color: #F0A83E;
+font-size: 16px;
+padding: 10px;
+}
 
 section.comederoFondo{
     background-image: url("../img/fondo\ comedero.png");
     background-size: cover;
     font-family: 'Roboto';
+}
+
+h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+color: #3C2313;
+}
+
+section.final{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+div.principal{
+    font-family: Roboto;
+    font-size: 10px;   
+}
+
+
+
+footer{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
 }
