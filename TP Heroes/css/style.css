@@ -13,14 +13,7 @@
 body{
     color:#000000;
     font-family: 'Roboto';
-    Width: 1024px;
-}
-
-main{
-    margin: 150px 32px;
-    position: relative;
-    justify-content: center;
-    align-content: center;
+    width: 100%;
 }
 
 h3{
@@ -40,66 +33,92 @@ h1{
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
+main{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 1000px;
+justify-content: space-around;
+align-content: center;
+padding: 13%;
+}
 
 article{
     Width: 300px;
-    Height: 336px;
-    text-align: center;
-    display: inline-block;
+    Height: 629px;
     font-size: 30px;
     background-color: #F3F3F3;
-padding: 17px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-items: center;
+    padding-top: 10%;
+    position: relative;
+
 }
 
 article.batman{
-    position: absolute;
     line-height: 35px;
-    
+    background-image: url(../img/fondobatman.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
 }
 
 article.harleyquinn{
-    position: absolute;
-    left: 33%;
     line-height: 35px;
+    background-image: url(../img/fondoharley.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 article.tercerbatman{
-    position: absolute;
-    left: 67%;
     line-height: 35px;
+    background-image: url(../img/fondobatman.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+img.fotoPerfil{
+    border-radius: 55%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.nombre{
+    margin-top: 40px;
+}
+
+i{
+    color: red;
+    position: absolute;
+    left: 20px;
+    top:20px;
+
 }
 
 div.textoHeroes{
     font-size: 16px; 
     line-height: 18.75px;
-    text-align: left;
-    padding: 20px;
+    padding: 10px;
     Width: 267px;
-    Height: 113px;
-
 }
 
-div.verMas{
+buttom{
     font-size: 15px;
     background-color: #00669F;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 269px;
-padding: 10px;
-color: #F3F3F3;
-
+    padding: 15px 25px;
+    color: #F3F3F3;
+margin-top:50px;
 }
 
 footer{
 text-align: left;
-align-items: flex-end;
-Width: 1024px;
+Width: 100%;
 Height: 51px;
 background-color: #00669F;
 color: #FFF9F9;
-position: absolute;
 padding: 15px;
-justify-content: center;
-align-content:flex-end;
 }
