@@ -1,97 +1,162 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(../font/Roboto-Regular.ttf);
+  font-family: "Roboto";
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Roboto";
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+.listaSinPunto1 {
+  list-style: none;
+  padding: 10px;
+  display: inline-flex;
+}
+
+.fondoNegro {
+  background-color: #222222;
+  color: #f3f3f3;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+}
+
+.fondoNaranja {
+  background-color: #f0a83e;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 30px;
+}
+
+.listaSinPunto2 {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.comederoFondo {
+  background-image: url("../img/fondo\ comedero.png");
+  background-size: cover;
+  width: 100%;
+  height: 409px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+p.esUnPlacer {
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 550px;
+  color: #3c2313;
+  background-color: #ffffff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+p.comederos1 {
+  text-align: center;
+  margin-right: 80px;
+  margin-left: 550px;
+  color: ##3c2313;
+  font-size: 16px;
+  padding: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+p.comederos2 {
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 650px;
+  color: #ffffff;
+  background-color: #f0a83e;
+  font-size: 16px;
+  padding: 10px;
+}
+
+h2 {
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #3c2313;
+}
+
+section.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 100px 100px 300px;
+}
+
+div.pawYdestacados {
+    justify-items: center;
+align-items: center;
+  text-align: center;
+  padding: 70px;
+}
+
+p.abajoPaw {
+    justify-items: center;
+align-items: center;
+  padding: 30px;
+  margin: 10px;
+}
+
+article{
+    width: 300px;
+    height: 312px;
+justify-items: center;
+align-items: center;
+text-align: center;
+}
+
+
+div.principal {
+  font-family: Roboto;
+  font-size: 10px;
+}
+
+.listaSinPunto {
+  list-style: none;
 }
 
 main{
-    font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
 }
 
-.listaSinPunto{
-    list-style: none;
-}
-
-nav.fondoNegro{
-    background-color: #222222;
-    color: #F3F3F3;
-    font-family: 'Roboto';
-}
-
-nav.fondoNaranja{
-    background-color: #F0A83E;
-    background-size: cover;
-    font-family: 'Roboto';
-    color: #FFFFFF;
-}
-
-p.esUnPlacer{
-    text-align: center;
-    font-family: 'Roboto';
-    margin-right: 80px;
-    margin-left: 850px;
-    color: #3C2313;
-    background-color: #FFFFFF;
-    font-size: 30px;
-    padding: 20px;
-
-}
-
-p.comederos1{
-    text-align: center;
-    font-family: 'Roboto';
-    margin-right: 80px;
-    margin-left: 850px;
-    color: ##3C2313;
-    font-size: 16px;
-    padding: 20px;
-    font-style: normal;
-    font-weight: normal;
-}
-
-p.comederos2{
-text-align: center;
-font-family: 'Roboto';
-margin-right: 140px;
-margin-left: 900px;
-color: #FFFFFF;
-background-color: #F0A83E;
-font-size: 16px;
-padding: 10px;
-}
-
-section.comederoFondo{
-    background-image: url("../img/fondo\ comedero.png");
-    background-size: cover;
-    font-family: 'Roboto';
-}
-
-h2{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-color: #3C2313;
-}
-
-section.final{
-    background-color: #3C2313;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 40px;
-}
-
-div.principal{
-    font-family: Roboto;
-    font-size: 10px;   
+section.final {
+  background-color: #3c2313;
+  padding: 50px;
 }
 
 
-
-footer{
-    background-color: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 10px;
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
 }

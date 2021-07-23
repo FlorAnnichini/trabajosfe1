@@ -53,22 +53,22 @@ article{
     justify-items: center;
     padding-top: 10%;
     position: relative;
-
 }
 
 article.batman{
     line-height: 35px;
     background-image: url(../img/fondobatman.png);
     background-repeat: no-repeat;
+    border-radius: 15px 15px;
     display: flex;
     flex-direction: column;
-
 }
 
 article.harleyquinn{
     line-height: 35px;
     background-image: url(../img/fondoharley.png);
     background-repeat: no-repeat;
+    border-radius: 15px 15px;
     display: flex;
     flex-direction: column;
 }
@@ -77,6 +77,7 @@ article.tercerbatman{
     line-height: 35px;
     background-image: url(../img/fondobatman.png);
     background-repeat: no-repeat;
+    border-radius: 15px 15px;
     display: flex;
     flex-direction: column;
 }
