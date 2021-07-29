@@ -36,23 +36,29 @@ h1{
 main{
 display: flex;
 flex-direction: row;
+flex-flow: wrap;
 width: 100%;
-height: 1000px;
+height: 1500px;
 justify-content: space-around;
 align-content: center;
-padding: 13%;
+padding: 50px;
 }
+
+
 
 article{
     Width: 300px;
-    Height: 629px;
+    Height: 650px;
     font-size: 30px;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
-    justify-items: center;
+    justify-content: space-around;
     padding-top: 10%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
 
 article.batman{
@@ -60,8 +66,7 @@ article.batman{
     background-image: url(../img/fondobatman.png);
     background-repeat: no-repeat;
     border-radius: 15px 15px;
-    display: flex;
-    flex-direction: column;
+
 }
 
 article.harleyquinn{
@@ -69,27 +74,37 @@ article.harleyquinn{
     background-image: url(../img/fondoharley.png);
     background-repeat: no-repeat;
     border-radius: 15px 15px;
-    display: flex;
-    flex-direction: column;
+
 }
 
-article.tercerbatman{
+article.wonderwoman{
     line-height: 35px;
-    background-image: url(../img/fondobatman.png);
+    background-image: url(../img/fondoWonderWoman.png);
+    background-size: contain;
     background-repeat: no-repeat;
     border-radius: 15px 15px;
-    display: flex;
-    flex-direction: column;
+    }
+
+article.superman{
+    line-height: 35px;
+    background-image: url(../img/fondo\ superman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px 15px;
 }
 
 img.fotoPerfil{
     border-radius: 55%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    position: absolute;
+    left: 90px;
+    top: 120px;
 }
 
 .nombre{
-    margin-top: 40px;
+    position: absolute;
+text-align: center;
+    top:270px;
 }
 
 i{
@@ -103,16 +118,22 @@ i{
 div.textoHeroes{
     font-size: 16px; 
     line-height: 18.75px;
+    text-align: center;
     padding: 10px;
     Width: 267px;
+    position: absolute;
+    left: 20px;
+    top: 320px;
 }
 
 buttom{
     font-size: 15px;
     background-color: #00669F;
-    padding: 15px 25px;
     color: #F3F3F3;
-margin-top:50px;
+    position: absolute;
+text-align: center;
+    top: 550px;
+    padding: 10px 20px;
 }
 
 footer{
