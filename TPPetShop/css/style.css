@@ -273,10 +273,5 @@ footer {
 }
 
 @media screen and (max-width: 480px;) {
-  header {
-    flex-direction: column;
-  }
-  main{
-    flex-direction: column;
-  }
+
 }
