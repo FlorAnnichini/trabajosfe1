@@ -271,3 +271,18 @@ footer {
   font-size: 15px;
   padding: 10px;
 }
+
+@media screen and (max-width: 480px;) {
+  .fondoNaranja {
+    flex-direction: column;
+  }
+  .centro{
+    flex-direction: column;
+  }
+  .suscribirse{
+    flex-direction: column;
+  }
+  .final{
+    flex-direction: column;
+  }
+}
