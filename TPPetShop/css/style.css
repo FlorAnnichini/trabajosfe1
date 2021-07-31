@@ -273,16 +273,10 @@ footer {
 }
 
 @media screen and (max-width: 480px;) {
-  .fondoNaranja {
+  header {
     flex-direction: column;
   }
-  .centro{
-    flex-direction: column;
-  }
-  .suscribirse{
-    flex-direction: column;
-  }
-  .final{
+  main{
     flex-direction: column;
   }
 }
