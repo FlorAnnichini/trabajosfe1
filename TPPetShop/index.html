@@ -1,81 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Shop</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="fondoNegro">
-            <p>Grandes ofertas en comedero</p>
-            <ul class="listaSinPunto1">
-                <li>Español</li>
-                <li>ARG$</li>
-            </ul>
-
-        </nav>
-        <nav class="fondoNaranja">
-            <img src="img\Logo.png" alt="Logo">
-            <ul class="listaSinPunto2">
-                <li><i class="fas fa-paw"></i>Categorias</li>
-                <li><i class="fas fa-paw"></i>Pets</li>
-                <li><i class="fas fa-paw"></i>Nosotros</li>
-                <li><i class="fas fa-paw"></i>Contactanos</li>
-            </ul>
-        </nav>
+      <nav class="fondoNegro">
+        <p>Grandes ofertas en comedero</p>
+        <ul>
+          <li class="listaSinPunto1">Español</li>
+          <li class="listaSinPunto1">ARG$</li>
+        </ul>
+      </nav>
+      <nav class="fondoNaranja">
+        <img src="img\Logo.png" alt="Logo" />
+        <ul>
+          <li class="listaSinPunto2"><i class="fas fa-paw"></i>Categorias</li>
+          <li class="listaSinPunto2"><i class="fas fa-paw"></i>Pets</li>
+          <li class="listaSinPunto2"><i class="fas fa-paw"></i>Nosotros</li>
+          <li class="listaSinPunto2"><i class="fas fa-paw"></i>Contactanos</li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <section class="comederoFondo">
+        <p class="esUnPlacer">¡Es un placer tenerte aquí!</p>
+        <p class="comederos1">¡Comederos en descuento!</p>
+        <p class="comederos2">COMEDEROS</p>
+      </section>
 
-        <section class="comederoFondo">
-            <p class="esUnPlacer">¡Es un placer tenerte aquí! </p>
-            <p class="comederos1">¡Comederos en descuento!</p>
-            <p class="comederos2">COMEDEROS</p>
+      <section class="patita">
+        <img
+          src="img\pawprint 1.png"
+          alt="imagen patita"
+          width="100px"
+          height="100px"
+        />
+        <h2>Productos destacados</h2>
+        <ul>
+          <li class="abajoPaw">Comederos</li>
+          <li class="abajoPaw">-</li>
+          <li class="abajoPaw">Accesorios</li>
+          <li class="abajoPaw">-</li>
+          <li class="abajoPaw">Comida</li>
+        </ul>
+      </section>
 
-        </section>
-        <section>
-            <div class="pawYdestacados">
-                <img src="img\pawprint 1.png" alt="imagen patita">
-                <h2>Productos destacados</h2>
-                <p class="abajoPaw">Comederos - Accesorios - Comida</p>
-            </div>
-        </section>
-        <section class="centro">
-            <article>
-                <p><img src="img/churrasquito.png" alt="Imagen producto 1">Juguete Churrasquito</p>
-                <p>$150</p>
-            </article>
-            <article>
-                <img src="img/comedero.png" alt="Imagen producto 2">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </article>
-            <article>
-                <img src="img/Huesito.png" alt="Imagen producto 3">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </article>
-        </section>
-        <section class="final">
-            <ul class="listaSinPunto">
-                <li><img src="./img/Location.png" alt="localidad"></li>
-                <li><img src="./img/Phone.png" alt="telefono"></li>
-                <li><img src="./img/Correo.png" alt="correo"></li>
-            </ul>
-            <img src="./img/LogoBlanco.png" alt="Logo">
-        </section>
+      <section class="centro">
+        <article>
+          <img src="img/churrasquito.png" alt="Imagen producto 1" />
+          <p class="fila1">Juguete Churrasquito</p>
+          <p class="fila2">$150</p>
+        </article>
+
+        <article>
+          <img src="img/comedero.png" alt="Imagen producto 2" />
+          <p class="fila1">Juguete Churrasquito</p>
+          <p class="fila2">$150</p>
+        </article>
+
+        <article>
+          <img src="img/Huesito.png" alt="Imagen producto 3" />
+          <p class="fila1">Juguete Churrasquito</p>
+          <p class="fila2">$150</p>
+        </article>
+      </section>
+
+      <section class="ingresarDatos">
+        <h2>Contáctanos</h2>
+        <h4>Nombre y Apellido</h4>
+        <h4>Ingresá tu correo electrónico</h4>
+        <h4>Teléfono</h4>
+        <div class="botones">
+          <button class="resetear">Resetear</button>
+          <button class="enviar">Enviar</button>
+        </div>
+      </section>
+
+      <section class="final">
+        <ul class="listaSinPunto3">
+          <li class="selectores"><img src="./img/Location.png" alt="localidad" /></li>
+          <li class="selectores"><img src="./img/Phone.png" alt="telefono" /></li>
+          <li class="selectores"><img src="./img/Correo.png" alt="correo" /></li>
+        </ul>
+        <p><img src="./img/LogoBlanco.png" alt="Logo" /></p>
+      </section>
     </main>
 
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+      <p>Todos los derechos reservados Front End</p>
     </footer>
-
-</body>
-
+  </body>
 </html>
