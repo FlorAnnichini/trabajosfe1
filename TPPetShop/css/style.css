@@ -152,61 +152,10 @@ article{
   color: #F0A83E;
 }
 
-.ingresarDatos{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-items: space-around;
-  align-items:stretch;
-  height: 350px;
-  margin: 120px 500px 30px;
-}
-
 h2{
   font-size: 25px;
   padding: 20px;
   text-align: center;
-}
-
-h4{
-padding: 15px 30px;
-margin-top: 5px;
-border-radius: 15px 15px;
-background-color: #3C2313;
-text-align: left;
-font-size: 9px;
-font-weight: normal;
-color: #FFFFFF;
-}
-
-.botones{
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content:center;
-}
-
-.resetear{
-  background-color: #8A8787;
-  border-radius: 20px 20px;
-  padding: 10px 30px;
-  margin-top: 15px;
-  border-style: none;
-  color: #FFFFFF; 
-}
-
-.enviar{
-  background-color: #F0A83E;
-  border-radius: 20px 20px;
-  padding: 10px 40px;
-  margin-top: 15px;
-  border-style: none;
-  color: #FFFFFF; 
 }
 
 .suscribirse{
@@ -279,8 +228,4 @@ footer {
   text-align: center;
   font-size: 15px;
   padding: 10px;
-}
-
-@media screen and (max-width: 480px;) {
-
 }
