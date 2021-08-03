@@ -5,29 +5,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heroes</title>
+    <title>Contacto - Heroes</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
         <h3>Descuentos 20%</h3>
-        <!-- <article> -->
-            <!-- <img src="" alt=""> -->
-        <!-- </article> -->
-        <nav>
-            <a href="contacto.html">Contacto</a>
-            <a href="registrarse.html">Registrarme</a>
-            <a href="login.html">Ingresar</a>
-        </nav>
+        <section class="tienda">
+            <img src="./img/logo 1.png" alt="">
+            <h1>La cueva del alienigena</h1>
+        </section>
     </header>
 
     <main>
-
+        <section class="logeate">
+            <h2>Contacto</h2>
+            <form action="index.html" method="POST">
+                <input type="text" name="nombre" id="usuario" value="Nombre y Apellido">
+                <input type="email" name="email" id="password" value="Correo electronico">
+                <textarea name="contenido" id="contenido" cols="30" rows="10"></textarea>
+                <p class="enviarResetear">
+                    <input type="submit" value="Entrar" class="otroSubmit">
+                    <input type="reset" value="Resetear">
+                </p>
+            </form>
+            <nav class="noEstas">
+                <p>¿Ya tenes una cuenta?</p>
+                <a href="registrarse.html" class="registrate">Ingresá</a>
+            </nav>
+        </section>
     </main>
 
     <footer>
