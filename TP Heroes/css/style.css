@@ -32,6 +32,11 @@ h3 {
   height: 38px;
   padding: 10px;
 }
+h2 {
+  font-family: "Inter";
+  font-size: 50px;
+  padding: 20px;
+}
 
 section.tienda {
   display: flex;
@@ -56,7 +61,7 @@ section.barraAzul {
 a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px;
 }
 
@@ -68,12 +73,6 @@ a {
   flex-direction: column;
   justify-items: center;
   align-items: left;
-}
-
-h2 {
-  font-family: "Inter";
-  font-size: 50px;
-  padding: 20px;
 }
 
 form {
@@ -243,6 +242,11 @@ buttom {
   text-align: center;
   top: 550px;
   padding: 10px 20px;
+}
+
+.super{
+  background-color: #00669f;
+  background-size: cover;
 }
 
 footer {
