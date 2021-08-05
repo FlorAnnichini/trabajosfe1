@@ -79,11 +79,12 @@ form {
   display: flex;
   flex-direction: column;
   font-family: "Karla";
+  width: 450px;
 }
 
 form input {
   font-size: 15px;
-  padding: 5px 80px;
+  padding: 10px 10px;
   input[type="text"]
 }
 input[type="text"],
