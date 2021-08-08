@@ -76,14 +76,25 @@
         </article>
       </section>
 
+      <section class="contactanos">
+        <h3>Contactanos</h2>
+        <form action="index.html" method="POST">
+            <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre y Apellido">
+            <input type="email" name="usuario" id="usuario" value="" placeholder="Correo electronico">
+            <input type="text" name="telefono" id="telefono" value="" placeholder="Telefono">
+        </form>
+      </section>
+
       <section class="suscribirse">
         <div class="banner">
           <img src="./img/enviar-correo 1.png" alt="enviar correo" />
           <p class="suscript">Suscríbete para más novedades</p>
         </div>
         <div class="botonesFinal">
-          <button class="ingresarCorreo">Ingresar correo electronico</button>
-          <button class="suscribirme">Suscribirme</button>
+          <form action="index.html" method="POST" class="ultimoCorreo">
+          <input type="email" name="usuario" id="correo" value="" placeholder="Ingresa tu correo electronico">
+          <input type="submit" value="suscribirse">
+        </form>
         </div>
       </section>
 

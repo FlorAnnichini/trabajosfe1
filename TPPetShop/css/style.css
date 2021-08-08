@@ -9,19 +9,16 @@
   padding: 0;
 }
 
-
 body {
   font-family: "Roboto";
 }
-
 
 .listaSinPunto1 {
   list-style: none;
   padding: 10px;
   justify-items: space-around;
   align-items: center;
-  display:inline-flex
-
+  display: inline-flex;
 }
 
 .fondoNegro {
@@ -36,7 +33,6 @@ body {
   align-items: center;
   padding: 0px 70px;
 }
-
 
 .fondoNaranja {
   background-color: #f0a83e;
@@ -100,7 +96,7 @@ p.comederos2 {
   padding: 20px;
 }
 
-.patita{
+.patita {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -114,11 +110,13 @@ p.comederos2 {
 h2 {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
   color: #3c2313;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
 }
 
-.abajoPaw{
+.abajoPaw {
   padding: 10px;
   font-size: 15px;
   list-style: none;
@@ -126,7 +124,7 @@ h2 {
   color: #666666;
 }
 
-.centro{
+.centro {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -137,70 +135,93 @@ h2 {
   align-items: center;
 }
 
-article{
+article {
   font-size: 15px;
   font-style: bold;
   text-align: center;
   font-style: bold;
 }
 
-.fila1{
-  color: #3C2313;
+.contactanos{
+  width: 450px;
+  color: #333333;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
-.fila2{
-  color: #F0A83E;
-}
-
-h2{
+h3{
   font-size: 25px;
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
 }
 
-.suscribirse{
+form input {
+  font-size: 15px;
+  padding: 10px 10px;
+  width: 450px;
+  background-color: #3c2313;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  box-shadow: none;
+}
+input[type="text"],
+input[type="email"]{
+  margin: 5px;
+}
+
+ultimoCorreo input[type="email"]{
+  background-color: #ffffff;
+  border-radius: 20px 20px;
+  border-style: none;
+  color: #a0a0a0;
+  font-size: 9px;
+}
+
+.suscribirse {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  background-color: #F0A83E;
+  background-color: #f0a83e;
   background-size: contain;
-  padding: 15px;
+  padding: 20px;
 }
 
-.banner{
-display: inline-flex;
-justify-items: space-around;
-align-items: center;
-font-size: 20px;
-color:#FFFFFF;
+.banner {
+  display: inline-flex;
+  justify-items: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: #ffffff;
 }
 
-.suscript{
+input[type="submit"] {
+  border-radius: 20px;
+  border: none;
+  box-shadow: none;
+  background-color: #3c2313;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
   padding: 10px;
 }
 
-.botonesFinal{
-  margin-right: 30px;
-}
 
-.ingresarCorreo{
-  background-color: #FFFFFF;
-  border-radius: 20px 20px;
-  padding: 25px 150px;
-  border-style: none;
-  color: #A0A0A0;
-  font-size: 9px; 
-}
-
-.suscribirme{
-  background-color: #3C2313;
+.suscribirme {
+  background-color: #3c2313;
   border-radius: 25px 25px;
   padding: 15px 30px;
   border-style: none;
-  color: #FFFFFF; 
-  font-size: 11px; 
+  color: #ffffff;
+  font-size: 11px;
 }
 
 .final {
@@ -218,7 +239,7 @@ color:#FFFFFF;
 .listaSinPunto3 {
   list-style: none;
 }
-.selectores{
+.selectores {
   padding: 10px;
 }
 

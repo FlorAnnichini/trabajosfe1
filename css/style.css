@@ -9,6 +9,10 @@ main{
     margin: 60px;
     font-size: 20px;
     color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 }
 
 h1{
