@@ -137,6 +137,7 @@ form {
   text-align: left;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: stretch;
   padding: 10px;
@@ -146,6 +147,7 @@ form {
   text-align: left;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-content: stretch;
   padding: 10px;
@@ -182,7 +184,7 @@ input[type="submit"] {
   font-size: 25px;
   font-weight: 700;
   border-color: #00669f;
-  padding: 15px 80px;
+  padding: 13px 80px;
 }
 
 input[type="radio"],
