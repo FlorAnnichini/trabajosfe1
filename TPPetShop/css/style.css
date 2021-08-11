@@ -256,7 +256,7 @@ footer {
   padding: 10px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 680px) {
   .fondoNegro{
     display: none;
   }
@@ -265,6 +265,9 @@ footer {
   }
   .suscribirse{
     flex-direction: column;
+  }
+  form input{
+    width: 80%
   }
   .centro{
     flex-direction: column;
